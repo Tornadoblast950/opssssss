@@ -12,13 +12,13 @@ set /a pom6=%pom1%/%pom2%
 :: calculations /\
 
 if %pom3%== 1 (
-  echo %pom4%
+  echo %pom1% plus %pom2% je %pom4% >> calc.txt
 )
 if %pom3%== 3 (
-  echo %pom6%
+  echo %pom1% deleno %pom2% je %pom6% >> calc.txt
 )
 if %pom3%== 2 (
-  echo %pom5%
+  echo Nasobek %pom1% a %pom2% je %pom5% >> calc.txt
 )
 :: inputs /\
 
